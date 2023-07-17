@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "testmod",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -18,15 +18,16 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+        "turniplabs.testmod.TestMod"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "testmod.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3"
+    "fabricloader": ">=0.13.3",
+    "halplibe": ">=1.1.4"
   },
   "suggests": {
   }

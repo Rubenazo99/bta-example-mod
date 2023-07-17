@@ -1,9 +1,10 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "turniplabs.examplemod.mixin",
+    "package": "turniplabs.testmod.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+        "ChunkProviderFossilMixin"
     ],
     "client": [
     ],
